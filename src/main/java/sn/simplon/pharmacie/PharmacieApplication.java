@@ -18,6 +18,6 @@ public class PharmacieApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        pharmacieRepository.save(new Pharmacie(0,"pharma1","medina","dakar",1));
+       // pharmacieRepository.save(new Pharmacie(0,"pharma1","medina","dakar",1));
     }
 }
